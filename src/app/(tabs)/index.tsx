@@ -6,7 +6,7 @@ import StockListItem from "@/src/components/StockListItem";
 
 export default function TabOneScreen() {
   const stocks = Object.values(top5);
-  console.log(stocks);
+  // console.log(stocks);
   return (
     <View style={styles.container}>
       <Stack.Screen options={{ title: "Stocks" }} />
